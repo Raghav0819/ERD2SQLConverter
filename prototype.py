@@ -4,7 +4,7 @@ import json
 import mysql.connector as server 
 import pymysql
 
-api_key="AIzaSyChrY2_oZRIJbo7RH2e0NrgVzWcUxe4XRU"
+api_key="enterapikey"
 genai.configure(api_key=api_key)
 
 prompt = """
@@ -62,7 +62,7 @@ with open('res.json', 'w') as f:
 data=json.loads(response.text)
 
 
-db = server.connect(host="127.0.0.1", user='root', passwd='1234', database="aisql")
+db = server.connect(host="enter_host", user='root', passwd='0000', database="aisql")
 cursor = db.cursor()
 cursor.execute(data['script'])
 db.close()
