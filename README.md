@@ -101,7 +101,7 @@ After processing a valid ERD image, Snap2SQL will generate:
 
 - **Accuracy Confidence:** Indicates confidence in the generated schema (e.g., 95%).
 
-- ## License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
