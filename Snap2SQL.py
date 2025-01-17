@@ -106,7 +106,7 @@ class Snap2SQL:
 
 
 def main():
-    api_key="AIzaSyChrY2_oZRIJbo7RH2e0NrgVzWcUxe4XRU"
+    api_key="Enter_API_KEY"
     erd_converter = Snap2SQL(api_key=api_key)
     
     banner = r"""
