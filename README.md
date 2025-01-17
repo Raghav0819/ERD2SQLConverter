@@ -35,6 +35,14 @@ Snap2SQL is a Python-based project that converts Entity-Relationship Diagram (ER
 
 ## Usage
 
+1. Open the `Snap2SQL.py` file and replace the placeholder `api_key` value with your own API key. Look for the following code snippet:
+   ```python
+   api_key = "YOUR_API_KEY_HERE"
+   ```
+
+   You need to replace `YOUR_API_KEY_HERE` with your valid API key for the Google Generative AI service.
+
+
 1. Run the script:
    ```bash
    python Snap2SQL.py
